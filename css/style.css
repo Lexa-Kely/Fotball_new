@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+    font-family: "Arial";
+    font-size: 14rem;
+    background-color: #f3f3f3;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    margin: auto;
+    padding: 0 15px;
+    max-width: 960px;
+    background-color: #fff;
+}
+
+header {
+    padding: 15px 0;
+}
+
+.heading {
+    display: flex;
+    column-gap: 10px;
+}
+
+.ball {
+    width: 40rem;
+    height: 40rem;
+}
+
+.heading p {
+    color: #5a5a5a;
+
+}
+
+.heading p b {
+    text-transform: uppercase;
+    color: #39930d;
+    font-size: 24rem;
+}
+
+.phonenumber {
+    padding: 12px 0;
+    width: 33%;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+
+.phonenumber>* {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+
+.icons {
+    width: 20rem;
+    height: 20rem;
+}
+
+
+.description {
+    padding-top: 30px;
+}
+
+.feald img {
+    width: 100%;
+}
+
+.phonenumber a {
+    color: #5a5a5a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.images {
+    display: flex;
+    column-gap: 10px;
+}
+
+.images img {
+    width: 25%;
+}
+
+.listfunction {
+    width: 30%;
+}
+
+.feald {
+    margin-bottom: 10px;
+}
+
+.listfunction {
+    padding-top: 30px;
+}
+
+h2 {
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 18rem;
+    text-transform: uppercase;
+    background-color: #39930d;
+}
+
+ul {
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+
+
+.listfunction a {
+    display: block;
+    padding: 0 20px;
+    line-height: 30rem;
+    color: #343434;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.description {
+    width: 65%;
+}
+
+h1 {
+    margin-bottom: 15px;
+    color: #39930d;
+    font-size: 24rem;
+    font-weight: bold;
+}
+
+.info {
+    margin-bottom: 90px;
+}
+
+.info p {
+    margin-bottom: 10px;
+    line-height: 21rem;
+    color: #343434;
+}
+
+footer,
+footer .wrapper {
+    background-color: #39930d;
+}
+
+footer .wrapper {
+    padding: 10px 15px;
+}
+
+.icons {
+    width: 80px;
+}
+
+footer p {
+    color: #fff;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #3e9413;
+}

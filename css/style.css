@@ -17,6 +17,7 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .wrapper {
@@ -33,6 +34,7 @@ header {
 .heading {
     display: flex;
     column-gap: 10px;
+    flex-wrap: wrap;
 }
 
 .ball {
@@ -70,13 +72,21 @@ header {
     height: 20rem;
 }
 
+main {
+    margin-bottom: 50px;
+}
 
 .description {
+    width: 65%;
+    min-width: 270px;
     padding-top: 30px;
 }
 
 .feald img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 70% 0;
 }
 
 .phonenumber a {
@@ -88,25 +98,29 @@ header {
 .images {
     display: flex;
     column-gap: 10px;
+    flex-wrap: wrap;
 }
 
 .images img {
-    width: 25%;
+    padding: 5px 0;
+    height: auto;
 }
 
-.listfunction {
-    width: 30%;
-}
 
 .feald {
     margin-bottom: 10px;
 }
 
 .listfunction {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    width: 300px;
     padding-top: 30px;
 }
 
 h2 {
+    width: 100%;
     padding: 15px 20px;
     color: #fff;
     font-size: 18rem;
@@ -130,9 +144,6 @@ ul {
     text-transform: uppercase;
 }
 
-.description {
-    width: 65%;
-}
 
 h1 {
     margin-bottom: 15px;
@@ -141,9 +152,6 @@ h1 {
     font-weight: bold;
 }
 
-.info {
-    margin-bottom: 90px;
-}
 
 .info p {
     margin-bottom: 10px;

@@ -35,16 +35,21 @@ header {
     display: flex;
     column-gap: 10px;
     flex-wrap: wrap;
+    padding-right: 20px;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
 }
 
 .ball {
-    width: 40rem;
-    height: 40rem;
+    width: 40px;
+    height: 40px;
 }
 
 .heading p {
     color: #5a5a5a;
-
 }
 
 .heading p b {
@@ -55,32 +60,18 @@ header {
 
 .phonenumber {
     padding: 12px 0;
-    width: 33%;
     color: #5a5a5a;
     font-weight: bold;
 }
 
 .phonenumber>* {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     column-gap: 5px;
+    padding: 0 9px;
 }
 
 
-.icons {
-    width: 20rem;
-    height: 20rem;
-}
-
-main {
-    margin-bottom: 50px;
-}
-
-.description {
-    width: 65%;
-    min-width: 270px;
-    padding-top: 30px;
-}
 
 .feald img {
     width: 100%;
@@ -104,6 +95,7 @@ main {
 .images img {
     padding: 5px 0;
     height: auto;
+    flex-grow: 1;
 }
 
 
@@ -114,18 +106,31 @@ main {
 .listfunction {
     display: flex;
     flex-wrap: wrap;
-    width: 35%;
     width: 300px;
-    padding-top: 30px;
+}
+
+.main-info {
+    padding: 40px 0;
+}
+
+.description {
+    width: 65%;
+    min-width: 270px;
+    flex-grow: 1;
+    padding: 0 30px;
 }
 
 h2 {
     width: 100%;
-    padding: 15px 20px;
+    padding: 10px 20px;
     color: #fff;
     font-size: 18rem;
     text-transform: uppercase;
     background-color: #39930d;
+}
+
+aside {
+    flex-grow: 1;
 }
 
 ul {
